@@ -44,7 +44,7 @@ The vulnerability dataset is obtained from the [National Vulnerability Database 
  
 We process the collected data to retrieve vulnerability descriptions and the classes for each of the eight categories analyzed: *Attack Vector*, *Attack Complexity*, *Privileges Required*, *User Interaction*, *Scope*, *Confidentiality*, *Integrity*, and *Availability*. A visual representation of class proportions, for each category, of the dataset is displayed in the following figure:
 
-<img src=".imgs/dataset_dist.png">
+<img src="imgs/dataset_dist.png">
 
 ---
 
