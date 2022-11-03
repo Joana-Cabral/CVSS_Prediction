@@ -57,23 +57,22 @@ We compare the performance of [BERT](https://arxiv.org/pdf/1810.04805.pdf), [RoB
 | BERT       | 3e-05              | 3               | 4          | 0            |
 | RoBERTa    | 1.5e-05            | 2               | 4          | 0.01         |
 | ALBERT     | 3e-05              | 3               | 8          | 0            |
-| BART       | 3e-05              | 3               | 4          | 0            |
 | DeBERTa    | 3e-05              | 10              | 4          | 0            |
 | DistilBERT | 5e-05              | 3               | 8          | 0            |
 
 
 The models' accuracy for each of the eight categories analyzed are shown in the following table:
 
-| Categories          | BERT | RoBERTa | ALBERT | BART | DeBERTa | DistilBERT |
-|---------------------|------|---------|--------|------|---------|------------|
-| Attack Vector       |      |         |        |      |         |            |
-| Attack Complexity   |      |         |        |      |         |            |
-| Privileges Required |      |         |        |      |         |            |
-| User Interaction    |      |         |        |      |         |            |
-| Scope               |      |         |        |      |         |            |
-| Confidentiality     |      |         |        |      |         |            |
-| Integrity           |      |         |        |      |         |            |
-| Availability        |      |         |        |      |         |            |
+| Categories          | BERT | RoBERTa | ALBERT | DeBERTa | DistilBERT |
+|---------------------|------|---------|--------|---------|------------|
+| Attack Vector       |      |         |        |         |            |
+| Attack Complexity   |      |         |        |         |            |
+| Privileges Required |      |         |        |         |            |
+| User Interaction    |      |         |        |         |            |
+| Scope               |      |         |        |         |            |
+| Confidentiality     |      |         |        |         |            |
+| Integrity           |      |         |        |         |            |
+| Availability        |      |         |        |         |            |
 
 ---
 
@@ -81,5 +80,13 @@ The models' accuracy for each of the eight categories analyzed are shown in the 
 If our work or code helped you in your research, please use the following BibTeX entries.
 
 ```BibTeX
-
+@ARTICLE{9786831,  
+    author={Costa, Joana Cabral and Roxo, Tiago and Sequeiros, João B. F. and Proenca, Hugo and INÁCIO, Pedro R. M.},  
+    journal={IEEE Access},   
+    title={Predicting CVSS Metric via Description Interpretation},   
+    year={2022},  
+    volume={10},  
+    number={},  
+    pages={59125-59134},  
+    doi={10.1109/ACCESS.2022.3179692}}
 ```
