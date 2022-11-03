@@ -1,0 +1,16 @@
+scipy==1.6.3
+numpy==1.20.2
+pandas==1.2.4
+nltk==3.6.2
+matplotlib==3.4.2
+tqdm==4.49.0
+transformers==4.6.0.dev0
+torch==1.4.0
+nlp==0.4.0
+activations==0.1.0
+brokenaxes==0.4.2
+easydict==1.9
+file_utils==0.0.1
+scikit_learn==0.24.2
+utils==1.0.1
+xgboost==1.4.2
