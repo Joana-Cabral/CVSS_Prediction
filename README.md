@@ -60,20 +60,6 @@ We compare the performance of [BERT](https://arxiv.org/pdf/1810.04805.pdf), [RoB
 | DeBERTa    | 3e-05              | 10              | 4          | 0            |
 | DistilBERT | 5e-05              | 3               | 8          | 0            |
 
-
-The models' accuracy for each of the eight categories analyzed are shown in the following table:
-
-| Categories          | BERT | RoBERTa | ALBERT | DeBERTa | DistilBERT |
-|---------------------|------|---------|--------|---------|------------|
-| Attack Vector       |      |         |        |         |            |
-| Attack Complexity   |      |         |        |         |            |
-| Privileges Required |      |         |        |         |            |
-| User Interaction    |      |         |        |         |            |
-| Scope               |      |         |        |         |            |
-| Confidentiality     |      |         |        |         |            |
-| Integrity           |      |         |        |         |            |
-| Availability        |      |         |        |         |            |
-
 ---
 
 ## Citing Paper
