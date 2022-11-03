@@ -60,6 +60,8 @@ We compare the performance of [BERT](https://arxiv.org/pdf/1810.04805.pdf), [RoB
 | DeBERTa    | 3e-05              | 10              | 4          | 0            |
 | DistilBERT | 5e-05              | 3               | 8          | 0            |
 
+Our experiments used the script `train.sh`, `train_specific_model.sh`, and `infer.sh`. `train_specific_model.sh` is used to train a specific model for the different categories with varying parameters (learning rate, epochs, batch size, and weight decay). `train.sh` trains distilbert (by default in `train.py`, line 161) considering different text pre-processing approaches.
+
 ---
 
 ## Citing Paper
