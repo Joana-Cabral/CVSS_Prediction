@@ -1,4 +1,6 @@
-# CVSS Metric Calculator
+# Predicting CVSS Metric via Description Interpretation
+
+*Official Pytorch implementation of the [Predicting CVSS Metric via Description Interpretation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9786831)*
 
 ## Do not forget to download transformers GitHub and install
 
